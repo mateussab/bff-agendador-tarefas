@@ -1,4 +1,4 @@
-package com.mateus.bffagendador.business.dto;
+package com.mateus.bffagendador.business.dto.in;
 
 import lombok.*;
 
@@ -7,9 +7,9 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class TelefoneDTO {
+public class TelefoneDTORequest {
 
-    private Long id;
+
     private String numero;
     private String ddd;
 
