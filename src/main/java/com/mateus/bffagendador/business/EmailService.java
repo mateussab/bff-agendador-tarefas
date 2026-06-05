@@ -14,5 +14,4 @@ public class EmailService {
     public void enviaEmail(TarefasDTOResponse tarefasDTO) {
         emailClient.enviarEmail(tarefasDTO);
     }
-
 }
